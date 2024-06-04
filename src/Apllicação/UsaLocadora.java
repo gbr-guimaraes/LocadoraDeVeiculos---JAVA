@@ -26,11 +26,11 @@ public class UsaLocadora {
         test.exibirVeiculosDisponiveis();
         test.exibirClientesComCarrosAlugados();
         
-        test.alugaVeiculo("12038833664", "abd-1234", 5, 120.00);
+        test.alugaVeiculo("12345678900", "abd-1234", 5, 120.00);
         
-        System.out.println(test.valorASerPago("12038833664"));
+        System.out.println(test.valorASerPago("12345678900"));
         
-        test.devolucaoVeiculo("12038833664");
+        test.devolucaoVeiculo("12345678900");
     }
     
 }
