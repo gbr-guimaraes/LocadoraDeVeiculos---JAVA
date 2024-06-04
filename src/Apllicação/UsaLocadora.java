@@ -21,7 +21,7 @@ public class UsaLocadora {
         Locadora test = new Locadora();
         
         test.incluirVeiculo("abd-1234", "preto", "celta", 2012, 120.00);
-        test.incluirCliente("Gbr", "12038833664", 0000111122223333l);
+        test.incluirCliente("Gbr", "12345678900", 0000111122223333l);
         
         test.exibirVeiculosDisponiveis();
         test.exibirClientesComCarrosAlugados();
